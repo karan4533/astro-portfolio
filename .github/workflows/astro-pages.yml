@@ -3,7 +3,7 @@ name: Deploy Astro Bento Portfolio to GitHub Pages
 on:
   push:
     branches:
-      - main  # Trigger on pushes to the 'main' branch
+      - master  # Trigger on pushes to the 'main' branch
 
 permissions:
   contents: write  # Permissions to write to GitHub Pages
